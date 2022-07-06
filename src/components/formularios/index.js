@@ -6,6 +6,11 @@ const dadosFormulario = [
     name:'nomeCrianca',
     type:'text'    
 },
+{
+    label:'data de nascimento',
+    name:'dataNascimento',
+    type:'date'
+},
 {label: 'Nome do Responsável',
 name:'nomeResponsavel',
 type:'text'    
@@ -28,7 +33,7 @@ type:'date'
 {label: 'A que horas?',
 name:'horaConsulta',
 type:'time'    
-},
+}
 ]
 
 
