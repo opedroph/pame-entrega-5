@@ -16,12 +16,17 @@ export const FormSpace = styled.form`
     display: flex;
     flex-direction: column;
     margin: 10px 30px;
+    gap: 15px;
 `
 
 export const Input= styled.input`
     width: 100%;
     padding: 10px;
     outline: none;
+    &:focus{
+        background-color:#d3d3d3;
+    }
+    
 `
 
 export const Label = styled.label`

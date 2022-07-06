@@ -6,7 +6,7 @@ const NavBar = () => {
     <> 
         <HeaderContainer>
             <Header>
-                <LogoEmpresa>PediaSul</LogoEmpresa>
+                <LogoEmpresa>Clínica Bambino</LogoEmpresa>
                 <Menu>
                     <MenuItem href='#'>Entrar</MenuItem>
                     <MenuItem href='#'>Cadastre-se</MenuItem>

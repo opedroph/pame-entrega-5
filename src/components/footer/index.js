@@ -7,7 +7,7 @@ function Footer() {
       <FooterContainer>
         <FooterParteEsquerda>
           <Informacoes>Endereço: rua da pediátria, 23</Informacoes>
-          <Informacoes>Email: emailpediasul@gmail.com</Informacoes>
+          <Informacoes>Email: emailclinicabambino@gmail.com</Informacoes>
           <Informacoes>Telefone: (11) 91234-5678</Informacoes>
         </FooterParteEsquerda>
         <FooterParteDireita>

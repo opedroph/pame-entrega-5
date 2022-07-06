@@ -36,15 +36,16 @@ type:'time'
 
 const Formulario = () => {
 
+
     return (
     <>
         <FormularioContainer>
             <TituloFormulario>Marque uma consulta!</TituloFormulario>
             <FormSpace>
                 {dadosFormulario.map((item, index)=>(
-                    <div >
+                    <div key={index} >
                         <Label htmlFor={item.name}>{item.label}</Label>
-                        <Input name={item.name} type={item.type}></Input>
+                        <Input id={item.name} type={item.type}></Input>
                     </div>
                 ))}
                 <Button>Marcar consulta</Button>
