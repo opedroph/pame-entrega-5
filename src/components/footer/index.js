@@ -1,5 +1,11 @@
-import React from 'react'
-import { FooterContainer, FooterParteDireita, FooterParteEsquerda, Informacoes,Links } from './footerElements'
+import React from "react";
+import {
+  FooterContainer,
+  FooterParteDireita,
+  FooterParteEsquerda,
+  Informacoes,
+  Links,
+} from "./footerElements";
 
 function Footer() {
   return (
@@ -11,13 +17,13 @@ function Footer() {
           <Informacoes>Telefone: (11) 91234-5678</Informacoes>
         </FooterParteEsquerda>
         <FooterParteDireita>
-          <Links href='#'>Nossa história</Links>
-          <Links href='#'>Sobre a pediátria</Links>
-          <Links href='#'>Relatos de clientes</Links>
+          <Links href="#">Nossa história</Links>
+          <Links href="#">Sobre a pediátria</Links>
+          <Links href="#">Relatos de clientes</Links>
         </FooterParteDireita>
       </FooterContainer>
     </>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

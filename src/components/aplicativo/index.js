@@ -1,21 +1,31 @@
-import React from 'react'
-import { AplicativoContainer, Disponibilidade, ParteDireita, ParteEsquerda, SeuFilhoPrecisa, Titulo, Dados } from './aplicativoElements'
+import React from "react";
+import {
+  AplicativoContainer,
+  Disponibilidade,
+  ParteDireita,
+  ParteEsquerda,
+  SeuFilhoPrecisa,
+  Titulo,
+  Dados,
+} from "./aplicativoElements";
 
 function Aplicativo() {
   return (
     <>
-    <AplicativoContainer>
+      <AplicativoContainer>
         <ParteEsquerda>
-            <Titulo>conheça nosso aplicativo.</Titulo>
-            <Disponibilidade>disponível para iphone e android</Disponibilidade>
+          <Titulo>conheça nosso aplicativo.</Titulo>
+          <Disponibilidade>disponível para iphone e android</Disponibilidade>
         </ParteEsquerda>
         <ParteDireita>
-            <SeuFilhoPrecisa>tudo o que seus filhos precisam está aqui!</SeuFilhoPrecisa>
-            <Dados>Produtos & medicamentos</Dados>
+          <SeuFilhoPrecisa>
+            tudo o que seus filhos precisam está aqui!
+          </SeuFilhoPrecisa>
+          <Dados>Produtos & medicamentos</Dados>
         </ParteDireita>
-    </AplicativoContainer>
+      </AplicativoContainer>
     </>
-  )
+  );
 }
 
-export default Aplicativo
+export default Aplicativo;

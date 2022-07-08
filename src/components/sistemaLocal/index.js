@@ -1,15 +1,15 @@
-import React from 'react'
-import Consultas from './consultas'
-import { InformacoesClientes } from './sistemaLocalElements'
+import React from "react";
+import Consultas from "./consultas";
+import { InformacoesClientes, Titulo } from "./sistemaLocalElements";
 
 function SistemaLocal() {
   return (
     <>
-        <InformacoesClientes>
-            <Consultas/>
-        </InformacoesClientes>
+      <InformacoesClientes>
+        <Consultas />
+      </InformacoesClientes>
     </>
-  )
+  );
 }
 
-export default SistemaLocal
+export default SistemaLocal;

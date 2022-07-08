@@ -1,15 +1,18 @@
 import React from "react";
-import { PrincipalContainer, PrincipalEsquerda, PrincipalDireita} from "./mainElements";
+import {
+  PrincipalContainer,
+  PrincipalEsquerda,
+  PrincipalDireita,
+} from "./mainElements";
 import Formulario from "../formularios";
 
 function Main() {
   return (
     <>
       <PrincipalContainer>
-        <PrincipalEsquerda>
-        </PrincipalEsquerda>
+        <PrincipalEsquerda></PrincipalEsquerda>
         <PrincipalDireita>
-            <Formulario/>
+          <Formulario />
         </PrincipalDireita>
       </PrincipalContainer>
     </>

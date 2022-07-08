@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import foto from "../../img/background.jpg"
+import foto from "../../img/background.jpg";
 
 export const PrincipalContainer = styled.div`
   width: 100%;
@@ -8,17 +8,17 @@ export const PrincipalContainer = styled.div`
 `;
 
 export const PrincipalEsquerda = styled.div`
-    background-image: url(${foto});
-    flex: 1;
-    background-position: center;
-    background-size: cover; 
-`
+  background-image: url(${foto});
+  flex: 1;
+  background-position: center;
+  background-size: cover;
+`;
 
 export const PrincipalDireita = styled.div`
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: #3E7ADA;
-`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #3e7ada;
+`;
