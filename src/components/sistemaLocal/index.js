@@ -1,6 +1,6 @@
 import React from "react";
 import Consultas from "./consultas";
-import { InformacoesClientes, Titulo } from "./sistemaLocalElements";
+import { InformacoesClientes} from "./style.js";
 
 function SistemaLocal() {
   return (

@@ -3,7 +3,7 @@ import {
   PrincipalContainer,
   PrincipalEsquerda,
   PrincipalDireita,
-} from "./mainElements";
+} from "./style.js";
 import Formulario from "../formularios";
 
 function Main() {

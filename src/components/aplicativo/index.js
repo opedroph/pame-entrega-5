@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   AplicativoContainer,
   Disponibilidade,
@@ -7,7 +8,7 @@ import {
   SeuFilhoPrecisa,
   Titulo,
   Dados,
-} from "./aplicativoElements";
+} from "./style.js";
 
 function Aplicativo() {
   return (

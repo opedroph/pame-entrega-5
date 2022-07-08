@@ -5,7 +5,7 @@ import {
   LogoEmpresa,
   Menu,
   MenuItem,
-} from "./headerElements";
+} from "./style.js";
 
 const NavBar = () => {
   return (

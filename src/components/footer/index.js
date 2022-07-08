@@ -5,7 +5,7 @@ import {
   FooterParteEsquerda,
   Informacoes,
   Links,
-} from "./footerElements";
+} from "./style.js";
 
 function Footer() {
   return (

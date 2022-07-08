@@ -6,7 +6,7 @@ import {
   Input,
   Button,
   Label,
-} from "./formulariosElements";
+} from "./style.js";
 
 const dadosFormulario = [
   { label: "Nome da criança", name: "nomeCrianca", type: "text" },

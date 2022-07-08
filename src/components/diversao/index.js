@@ -7,7 +7,7 @@ import {
   Direita,
   Titulo,
   Comentarios,
-} from "./diversaoElements";
+} from "./style.js";
 
 function Diversao() {
   return (
